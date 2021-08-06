@@ -1,0 +1,52 @@
+.app {
+    padding: 10px 0;
+    height: 100%;
+    overflow: auto;
+    max-width: var(--max-width);
+    width: 100%;
+    margin: auto;
+}
+
+.appButtons {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.appButtons button {
+    cursor: pointer;
+    padding: 5px 12px;
+}
+
+form {
+    height: calc(100% - 80px);
+}
+
+input, textarea {
+    padding: 5px 12px;
+    background-color: var(--secondary);
+}
+
+input:focus, textarea:focus {
+    background-color: var(--on-background);
+    outline: none;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    background-color: var(--primary-variant);
+    color: var(--on-surface);
+    border-radius: 12px;
+    padding: 5px 12px;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    height: calc(100% - 100px);
+    resize: none;
+}

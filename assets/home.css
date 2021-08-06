@@ -1,0 +1,39 @@
+.app {
+    padding: 10px 0;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.authForm {
+    width: 100%;
+    max-width: var(--max-width-small);
+    margin: 20px auto;
+    background-color: var(--surface);
+    padding: 20px;
+}
+
+.authForm input {
+    display: block;
+    margin: 5px auto;
+    padding: 5px 12px;
+}
+
+.authForm input[type=email], .authForm input[type=password], .authForm input[type=text] {
+    width: 100%;
+}
+
+.authForm input[type=submit] {
+    margin-right: 0;
+    cursor: pointer;
+}

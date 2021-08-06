@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Roboto;
+    font-weight: 100;
+    src: url('./font/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 100;
+    font-style: italic;
+    src: url('./font/Roboto-ThinItalic.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 300;
+    src: url('./font/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: italic;
+    src: url('./font/Roboto-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 400;
+    src: url('./font/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: italic;
+    src: url('./font/Roboto-Italic.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 500;
+    src: url('./font/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: italic;
+    src: url('./font/Roboto-MediumItalic.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 700;
+    src: url('./font/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: italic;
+    src: url('./font/Roboto-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 900;
+    src: url('./font/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 900;
+    font-style: italic;
+    src: url('./font/Roboto-BlackItalic.ttf');
+}
+
+:root {
+    --primary: #BB86FC;
+    --primary-variant: #3700B3;
+    --secondary: #03DAC6;
+    --background: #121212;
+    --surface: #121212;
+    --error: #CF6679;
+    --on-primary: #000000;
+    --on-secondary: #000000;
+    --on-background: #FFFFFF;
+    --on-surface: #FFFFFF;
+    --on-error: #000000;
+    --max-width: 768px;
+    --max-width-small: 450px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    color: var(--primary);
+    background-color: var(--background);
+    font: 16px 'Roboto', -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input, button, textarea {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+a {
+    color: inherit;
+}

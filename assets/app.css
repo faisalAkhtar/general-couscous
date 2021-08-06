@@ -1,0 +1,70 @@
+.app {
+    padding: 10px 0;
+    max-height: 100%;
+    overflow: auto;
+    width: 100%;
+    max-width: var(--max-width-small);
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.appButtons {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.appButtons button {
+    cursor: pointer;
+    padding: 5px 12px;
+}
+
+.files {
+    color: var(--secondary);
+}
+
+.files .row {
+    padding: 20px;
+    margin: 0 10px 10px 10px;
+    border: 2px solid var(--primary-variant);
+    overflow: hidden;
+}
+
+.files .sno {
+    display: inline-block;
+    font-family: monospace;
+    width: 30px;
+}
+
+.files .name {
+    display: inline-block;
+    max-width: calc(100% - 30px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform: translateY(4px);
+}
+
+.files .created {
+    font-style: italic;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.files .open, .files .del {
+    float: left;
+    margin-left: 30px;
+}
+
+.files button {
+    cursor: pointer;
+    background-color: var(--primary-variant);
+    color: var(--on-surface);
+    border-radius: 12px;
+    padding: 5px 12px;
+}
